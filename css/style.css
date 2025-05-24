@@ -1,3 +1,40 @@
-h1 {
-    color: brown;
+html ¨{
+  font-size: 1rem;
 }
+
+h1 {
+
+color:#1c4642;
+  font-family:  "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+main {
+  background-color: #f2e7d5;
+}
+
+
+
+
+header {
+    background-color: #f2e7d5;
+    
+} 
+.imglogo {
+  padding: 80px;
+  border: 3px;
+}
+nav{
+  font-family: "Josefin Sans", sans-serif;
+  color: #1c4642;
+}
+p {
+  font-family: "Mulish", sans-serif;
+  color: #738f58;
+}
+footer {
+    background-color: #f2e7d5;
+} 
+.fa-instagram{font-size: 50px;}
+.fa-envelope{font-size: 50px;} 
+.fa-facebook{font-size: 50px;}
