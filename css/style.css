@@ -1,32 +1,41 @@
-html ¨{
+ *{font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
 }
 
-h1 {
 
-color:#1c4642;
-  font-family:  "MonteCarlo", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 main {
   background-color: #f2e7d5;
 }
 
-
-
-
 header {
+  display: flex;
+  position: sticky;
+  top: 0px;
     background-color: #f2e7d5;
-    
-} 
-.imglogo {
-  padding: 80px;
-  border: 3px;
+
 }
-nav{
-  font-family: "Josefin Sans", sans-serif;
+    
+
+.nav {
+ 
   color: #1c4642;
+}
+.nav ul {
+  
+   font-family: "Josefin Sans", sans-serif;
+  color: #1c4642;}
+
+.contenedor {
+  border: flex;
+  justify-content: center;
+
+  border: 5px solid black;
+  height:auto;
+}
+.item{
+  border: 10px solid black;
+  height: 10px;
+  width: 10px;
 }
 p {
   font-family: "Mulish", sans-serif;
@@ -38,3 +47,75 @@ footer {
 .fa-instagram{font-size: 50px;}
 .fa-envelope{font-size: 50px;} 
 .fa-facebook{font-size: 50px;}
+
+
+.body-index{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f2e7d5;
+  box-sizing: border-box ;
+  margin: 0;
+  padding: 0;
+  
+}
+.header-index{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+justify-content: space-between;
+border-bottom: solid #c35d2e 1px ;
+}
+
+.contenedor-logo{
+  width: 15rem;
+  display: flex;
+  
+}
+.header-index h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+margin: auto;
+color:#235752;
+font-family:  "MonteCarlo", cursive;
+font-style: normal;
+}
+
+.imglogo {
+width: 100%;
+}
+.nav-index {
+display: flex;
+width: 20rem;
+padding: 0;
+margin: 0;
+align-items: flex-end;
+
+}
+
+.nav-index ul {
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+gap: 1rem;
+margin-block-start: 0;
+margin-block-end: 0;
+padding-inline-start: 0;
+margin-bottom: 1rem;
+margin-right: 0.5rem;
+width: 100%;
+}
+.nav-index ul li a{
+text-decoration: none;
+text-decoration-line: none;
+font-size: 1.1rem;
+}
+.nav-index ul li a:visited
+{color:  #1c4642;
+}
+
+.nav-index ul li a:hover
+{font-size: 1.4rem;
+color:  #c35d2e;}
+
